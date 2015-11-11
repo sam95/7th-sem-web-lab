@@ -1,0 +1,50 @@
+<html>
+	<head><title>3 stack</title>
+	<style type="text/css">
+	.frame1
+	{
+		border : thick solid green;
+		background-color : grey;
+		padding : 2in;
+		position : absolute;
+		top : 65px;
+		left : 4.5in;
+		z-index : 0;
+	}
+	.frame2
+	{
+		border : thick solid green;
+		background-color : red;
+		padding : 2in;
+		position : absolute;
+		top : 75px;
+		left : 5.5in;
+		z-index : 0;
+	}
+	.frame3
+	{
+		border : thick solid green;
+		background-color : blue;
+		padding : 2in;
+		position : absolute;
+		top : 85px;
+		left : 6.5in;
+		z-index : 0;
+	}
+	</style>
+	<script type="text/javascript">
+		var ctop="f3";
+		function ontop(position)
+		{
+			document.getElementById(ctop).style.zIndex="0";
+			document.getElementById(position).style.zIndex="1";
+			ctop=position;
+		}
+	</script>
+	</head>
+	<body>
+		<p class="frame1" id="f1" onmouseover="ontop('f1')">Paragraph-1</p>
+		<p class="frame2" id="f2" onmouseover="ontop('f2')">Paragraph-2</p>
+		<p class="frame3" id="f3" onmouseover="ontop('f3')">Paragraph-3</p>
+	</body>
+</html>
