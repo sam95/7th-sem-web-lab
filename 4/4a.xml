@@ -1,0 +1,28 @@
+<?xml-version = "1.0" encoding="utf=8"?>
+<?xml-stylesheet type="text/css" href="4a.css"?>
+<vtu>
+	<student>
+		  <name>me</name>
+		  <usn>123</usn>
+		  <college>pesse</college>
+		  <branch>cse</branch>
+		  <yoj>2012</yoj>
+		  <email>me@something.com</email>
+	</student>
+	<student>
+		<name>my friend</name>
+		<usn>456</usn>
+		<college>pesse</college>
+		<branch>cse</branch>
+		<yoj>2013</yoj>
+		<email>myfriend@something.com</email>
+	</student>
+	<student>
+		<name>your name</name>
+		<usn>789</usn>
+		<college>pesse</college>
+		<branch>cse</branch>
+		<yoj>2014</yoj>
+		<email>yourname@something.com</email>
+	</student>
+</vtu>

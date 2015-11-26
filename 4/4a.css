@@ -1,0 +1,13 @@
+student
+{
+   display:block;
+   padding-bottom:1cm;
+}
+
+usn,name,college,branch,yoj,email
+{
+     font-size:14;
+	 font-family:arial;
+	 color:green;
+	 display:block;
+}
