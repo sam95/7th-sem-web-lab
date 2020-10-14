@@ -15,3 +15,6 @@ Don't forget to type : sudo chmod 777 6.pl
 save it and open the browser : localhost/cgi-bin/6.pl on the browser
 
 Cheers!
+
+### Note for windows user for Experiment 6a:
+In XAMPP, the cgi-bin directory cannot open HTML files as it is forbidden because if it allows execution of html, then anyone globally can open the developer's files through browser. Hence, don't put html files in cgi-bin. It would be a quick fix, because opposite to linux, Windows OS takes a lot of hard-work to have some easy read-write permissions to the files.
